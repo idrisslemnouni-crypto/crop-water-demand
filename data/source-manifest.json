@@ -1,0 +1,161 @@
+[
+  {
+    "name": "Meknes",
+    "latitude": 33.89,
+    "longitude": -5.55,
+    "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CT2M_MIN%2CRH2M%2CWS2M%2CALLSKY_SFC_SW_DWN%2CPRECTOTCORR%2CPS&community=AG&longitude=-5.55&latitude=33.89&start=20140101&end=20241231&format=JSON&time-standard=LST",
+    "file": "Meknes.json",
+    "sha256": "90f98638a5a27813acce8dc866cf38cdb632c531a6a2f22da2fa624db521e86b",
+    "bytes": 533293,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -5.55,
+        33.89,
+        414.0
+      ]
+    },
+    "parameters": {
+      "T2M": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters"
+      },
+      "T2M_MAX": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters Maximum"
+      },
+      "T2M_MIN": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters Minimum"
+      },
+      "RH2M": {
+        "units": "%",
+        "longname": "Relative Humidity at 2 Meters"
+      },
+      "WS2M": {
+        "units": "m/s",
+        "longname": "Wind Speed at 2 Meters"
+      },
+      "ALLSKY_SFC_SW_DWN": {
+        "units": "MJ/m^2/day",
+        "longname": "All Sky Surface Shortwave Downward Irradiance"
+      },
+      "PRECTOTCORR": {
+        "units": "mm/day",
+        "longname": "Precipitation Corrected"
+      },
+      "PS": {
+        "units": "kPa",
+        "longname": "Surface Pressure"
+      }
+    },
+    "scientific_sha256": "daaba8a165714331380d04921989b6732e8b62dbe06a2b57451c59f4c93a80ee",
+    "accessed_on": "2026-10-05"
+  },
+  {
+    "name": "Marrakech",
+    "latitude": 31.63,
+    "longitude": -8.0,
+    "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CT2M_MIN%2CRH2M%2CWS2M%2CALLSKY_SFC_SW_DWN%2CPRECTOTCORR%2CPS&community=AG&longitude=-8.0&latitude=31.63&start=20140101&end=20241231&format=JSON&time-standard=LST",
+    "file": "Marrakech.json",
+    "sha256": "49e66a9c1d115c4f741aa7687c88c9174800e8540c28acac62084ff83102d1aa",
+    "bytes": 532131,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.0,
+        31.63,
+        836.94
+      ]
+    },
+    "parameters": {
+      "T2M": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters"
+      },
+      "T2M_MAX": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters Maximum"
+      },
+      "T2M_MIN": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters Minimum"
+      },
+      "RH2M": {
+        "units": "%",
+        "longname": "Relative Humidity at 2 Meters"
+      },
+      "WS2M": {
+        "units": "m/s",
+        "longname": "Wind Speed at 2 Meters"
+      },
+      "ALLSKY_SFC_SW_DWN": {
+        "units": "MJ/m^2/day",
+        "longname": "All Sky Surface Shortwave Downward Irradiance"
+      },
+      "PRECTOTCORR": {
+        "units": "mm/day",
+        "longname": "Precipitation Corrected"
+      },
+      "PS": {
+        "units": "kPa",
+        "longname": "Surface Pressure"
+      }
+    },
+    "scientific_sha256": "30f9effd51c23e0640bfb2bd69e1123750b58f1732bc829c2818a8b36d8e87a5",
+    "accessed_on": "2026-10-05"
+  },
+  {
+    "name": "Agadir",
+    "latitude": 30.42,
+    "longitude": -9.6,
+    "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CT2M_MIN%2CRH2M%2CWS2M%2CALLSKY_SFC_SW_DWN%2CPRECTOTCORR%2CPS&community=AG&longitude=-9.6&latitude=30.42&start=20140101&end=20241231&format=JSON&time-standard=LST",
+    "file": "Agadir.json",
+    "sha256": "baa3cccaa0b751705595894a18a32499e15a0b1c0c124d59cab7c1c53d76510f",
+    "bytes": 533713,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -9.6,
+        30.42,
+        358.42
+      ]
+    },
+    "parameters": {
+      "T2M": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters"
+      },
+      "T2M_MAX": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters Maximum"
+      },
+      "T2M_MIN": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters Minimum"
+      },
+      "RH2M": {
+        "units": "%",
+        "longname": "Relative Humidity at 2 Meters"
+      },
+      "WS2M": {
+        "units": "m/s",
+        "longname": "Wind Speed at 2 Meters"
+      },
+      "ALLSKY_SFC_SW_DWN": {
+        "units": "MJ/m^2/day",
+        "longname": "All Sky Surface Shortwave Downward Irradiance"
+      },
+      "PRECTOTCORR": {
+        "units": "mm/day",
+        "longname": "Precipitation Corrected"
+      },
+      "PS": {
+        "units": "kPa",
+        "longname": "Surface Pressure"
+      }
+    },
+    "scientific_sha256": "e73f52b8f4faf10d4c27b61e31b7a6137bca200df744b48aa48b754d868865d9",
+    "accessed_on": "2026-10-05"
+  }
+]

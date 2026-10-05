@@ -1,0 +1,21 @@
+{
+  "description": "FAO-56 reference ET0 on Moroccan gridded weather, published-case checks and explicit hypothetical Kc scenarios",
+  "topics": [
+    "agriculture",
+    "fao56",
+    "evapotranspiration",
+    "water-demand",
+    "nasa-power",
+    "python"
+  ],
+  "issues": [
+    {
+      "title": "Validate gridded ET0 and humidity approximation against observations",
+      "body": "Current RH mean approximates actual vapour pressure; no observed ET target exists. Obtain independent station RH extremes and reference ET or lysimeter observations before making accuracy claims."
+    },
+    {
+      "title": "Define an observed crop calendar and soil water budget",
+      "body": "Kc values .4/.8/1.2 are constant hypothetical scenarios. Obtain crop-stage coefficients, rooting depth, retention, effective rainfall and observed management before converting reference demand to irrigation advice."
+    }
+  ]
+}

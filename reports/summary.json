@@ -1,0 +1,53 @@
+{
+  "year": 2024,
+  "rows": 1098,
+  "sites": [
+    "Agadir",
+    "Marrakech",
+    "Meknes"
+  ],
+  "cloud_ratio_bounded_days": 82,
+  "emissivity_bounded_days": 0,
+  "negative_raw_et0_clipped_days": 0,
+  "config": {
+    "year": 2024,
+    "kc_scenarios": [
+      0.4,
+      0.8,
+      1.2
+    ],
+    "albedo": 0.23,
+    "cloud_ratio_bounds": [
+      0.3,
+      1.0
+    ],
+    "soil_heat_flux_mj_m2_day": 0
+  },
+  "annual_totals": {
+    "Agadir": {
+      "et0_pm_mm": 1832.155971139223,
+      "PRECTOTCORR": 148.99,
+      "climatic_balance_mm": -1683.165971139223,
+      "etc_scenario_kc_0.4_mm": 732.8623884556893,
+      "etc_scenario_kc_0.8_mm": 1465.7247769113785,
+      "etc_scenario_kc_1.2_mm": 2198.587165367068
+    },
+    "Marrakech": {
+      "et0_pm_mm": 1830.2673140664479,
+      "PRECTOTCORR": 192.22,
+      "climatic_balance_mm": -1638.0473140664478,
+      "etc_scenario_kc_0.4_mm": 732.1069256265791,
+      "etc_scenario_kc_0.8_mm": 1464.2138512531583,
+      "etc_scenario_kc_1.2_mm": 2196.3207768797374
+    },
+    "Meknes": {
+      "et0_pm_mm": 1651.079015752894,
+      "PRECTOTCORR": 377.04,
+      "climatic_balance_mm": -1274.039015752894,
+      "etc_scenario_kc_0.4_mm": 660.4316063011577,
+      "etc_scenario_kc_0.8_mm": 1320.8632126023153,
+      "etc_scenario_kc_1.2_mm": 1981.2948189034728
+    }
+  },
+  "scope": "Reference ET0 from gridded weather and hypothetical constant Kc scenarios; no observed crop ET or irrigation need"
+}

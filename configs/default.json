@@ -1,0 +1,14 @@
+{
+  "year": 2024,
+  "kc_scenarios": [
+    0.4,
+    0.8,
+    1.2
+  ],
+  "albedo": 0.23,
+  "cloud_ratio_bounds": [
+    0.3,
+    1.0
+  ],
+  "soil_heat_flux_mj_m2_day": 0
+}
