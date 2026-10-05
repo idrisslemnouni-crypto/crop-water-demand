@@ -51,3 +51,8 @@ python -m pytest -q
 Source acquisition checks pinned scientific-content hashes, excluding only volatile response timings. Raw files are saved locally and ignored in Git. [Executed notebook](notebooks/01_evidence.ipynb), [verification](docs/verification.md), [learning guide](docs/learning-guide.md), [interview notes](docs/interview-notes.md), [design](docs/design.md). CI is pending scheduled publication.
 
 The helper supports nonpolar latitudes up to 60° and checks documented physical ranges. It is an educational retrospective implementation with explicit bounds, not a general all-climate agronomic service. Validate against independent station and lysimeter/reference-ET observations before field use. Development assisted by AI; the author should understand equations and limitations personally.
+
+
+## GitHub publication
+
+[Public repository](https://github.com/idrisslemnouni-crypto/crop-water-demand) · [Current CI results](https://github.com/idrisslemnouni-crypto/crop-water-demand/actions). Published following the user's explicit 5 October 2026 request to release the prepared portfolio together. Earlier local-verification notes describe the pre-publication checkpoint. Raw sources and trained artifacts remain excluded from Git; reproduction commands regenerate them.
