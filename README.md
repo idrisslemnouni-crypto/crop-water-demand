@@ -8,7 +8,7 @@ Daily FAO-56 Penman-Monteith reference evapotranspiration from public gridded we
 
 Estimate reference atmospheric water demand at three Moroccan NASA POWER points in **2024**, with **1,098 complete daily rows**. This physical-model project reuses the source archive of agroclimate-risk-analysis but answers a distinct question; it is not an additional independent source validation. The points represent coarse gridded products rather than local stations or irrigated fields. [NASA provenance, attribution, units and hashes](data/README.md), [manifest](data/source-manifest.json). Code MIT applies separately from source terms.
 
-No measured crop evapotranspiration, phenology, effective rainfall, rooting depth, soil retention or actual irrigation is available. Outputs are reference ET0 and clearly assumed scenarios, not validated irrigation prescriptions, pump requirements or measured water savings.
+No measured crop evapotranspiration, phenology, effective rainfall, rooting depth, soil retention or actual irrigation is available. Outputs are reference ET0 and clearly assumed scenarios, not validated irrigation prescriptions, pump requirements or measured water savings. The [root-zone extension](docs/root-zone-balance.md) now adds a conserving soil-water ledger using explicit hypothetical parameters.
 
 ## Physical method and assumptions
 
@@ -45,10 +45,17 @@ python -m venv .venv
 python -m pip install -r requirements-lock.txt
 python -m pip install --no-deps -e .
 python -m water_demand.analyze
+python -m water_demand.scenarios
 python -m pytest -q
 ```
 
-Source acquisition checks pinned scientific-content hashes, excluding only volatile response timings. Raw files are saved locally and ignored in Git. [Executed notebook](notebooks/01_evidence.ipynb), [verification](docs/verification.md), [learning guide](docs/learning-guide.md), [interview notes](docs/interview-notes.md), [design](docs/design.md). CI is pending scheduled publication.
+Source acquisition checks pinned scientific-content hashes, excluding only volatile response timings. Raw files are saved locally and ignored in Git. [Executed notebook](notebooks/01_evidence.ipynb), [verification](docs/verification.md), [learning guide](docs/learning-guide.md), [interview notes](docs/interview-notes.md), [design](docs/design.md). The public CI checks pinned installation, lint, tests and notebook validity.
+
+## Hypothetical root-zone balance
+
+**Synthetic dataset created for demonstration purposes.** Assumed soil/crop/management values drive a fixed-root-zone scenario with real gridded meteorology. The April–September run has 549 daily budgets with residual below 3×10⁻¹⁴ mm. [Methods, limits and actual results](docs/root-zone-balance.md) explain why these outputs are not field stress observations or irrigation prescriptions.
+
+![Scenario root-zone budget](reports/figures/root-zone-scenarios.png)
 
 The helper supports nonpolar latitudes up to 60° and checks documented physical ranges. It is an educational retrospective implementation with explicit bounds, not a general all-climate agronomic service. Validate against independent station and lysimeter/reference-ET observations before field use. Development assisted by AI; the author should understand equations and limitations personally.
 

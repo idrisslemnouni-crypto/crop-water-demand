@@ -1,0 +1,17 @@
+{
+  "label": "Hypothetical fixed root-zone scenario; not an observed crop or irrigation schedule",
+  "parameter_reference": "FAO-56 Chapter 8 example 37; parameters reused as a hypothetical scenario only",
+  "theta_fc": 0.32,
+  "theta_wp": 0.12,
+  "root_depth_m": 0.8,
+  "depletion_fraction": 0.4,
+  "kc": 1.2,
+  "initial_depletion_mm": 55.0,
+  "start_date": "2024-04-01",
+  "end_date": "2024-09-30",
+  "runoff_mm": 0.0,
+  "net_irrigation_mm": 0.0,
+  "capillary_rise_mm": 0.0,
+  "p_adjustment": "constant; not calibrated from daily demand",
+  "data_notice": "Synthetic dataset created for demonstration purposes. Soil/crop/management scenario assumptions are hypothetical; meteorological forcing is real NASA POWER gridded data."
+}

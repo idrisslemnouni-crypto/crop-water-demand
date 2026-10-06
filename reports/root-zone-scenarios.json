@@ -1,0 +1,53 @@
+{
+  "config": {
+    "label": "Hypothetical fixed root-zone scenario; not an observed crop or irrigation schedule",
+    "parameter_reference": "FAO-56 Chapter 8 example 37; parameters reused as a hypothetical scenario only",
+    "theta_fc": 0.32,
+    "theta_wp": 0.12,
+    "root_depth_m": 0.8,
+    "depletion_fraction": 0.4,
+    "kc": 1.2,
+    "initial_depletion_mm": 55.0,
+    "start_date": "2024-04-01",
+    "end_date": "2024-09-30",
+    "runoff_mm": 0.0,
+    "net_irrigation_mm": 0.0,
+    "capillary_rise_mm": 0.0,
+    "p_adjustment": "constant; not calibrated from daily demand",
+    "data_notice": "Synthetic dataset created for demonstration purposes. Soil/crop/management scenario assumptions are hypothetical; meteorological forcing is real NASA POWER gridded data."
+  },
+  "source_daily_sha256": "50dccce88b516ae2f525402ae277e71b06b9aeda00a236057ffbee9b494d533b",
+  "scope": "Hypothetical rainfed fixed-root-zone response to real gridded meteorology; no field water-stress or irrigation validation",
+  "sites": {
+    "Agadir": {
+      "days": 183,
+      "precipitation_mm": 17.869999999999997,
+      "potential_etc_mm": 1388.7764534427768,
+      "adjusted_etc_scenario_mm": 119.72682970920081,
+      "deep_percolation_mm": 0.0,
+      "days_with_start_ks_below_one": 181,
+      "end_depletion_mm": 156.85682970920095,
+      "max_absolute_balance_residual_mm": 2.6395552410463097e-14
+    },
+    "Marrakech": {
+      "days": 183,
+      "precipitation_mm": 49.010000000000005,
+      "potential_etc_mm": 1479.7892967220564,
+      "adjusted_etc_scenario_mm": 145.60682283233083,
+      "deep_percolation_mm": 0.0,
+      "days_with_start_ks_below_one": 181,
+      "end_depletion_mm": 151.59682283233082,
+      "max_absolute_balance_residual_mm": 2.4091839634365897e-14
+    },
+    "Meknes": {
+      "days": 183,
+      "precipitation_mm": 45.28999999999999,
+      "potential_etc_mm": 1381.8709467612011,
+      "adjusted_etc_scenario_mm": 145.5150030763468,
+      "deep_percolation_mm": 0.0,
+      "days_with_start_ks_below_one": 180,
+      "end_depletion_mm": 155.22500307634695,
+      "max_absolute_balance_residual_mm": 2.6645352591003757e-14
+    }
+  }
+}
